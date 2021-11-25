@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style>
+    body {
+        background-color: rgb(71, 71, 71);
+        }
+    img {
+        border-radius:15px;
+        border:7.5px solid rgb(255, 255, 255);
+        }
+    h2 {
+        background-color: rgb(124, 124, 124);
+        font-size:50px;
+        font-family: Bahnschrift, Arial, Helvetica;
+        border:5px solid rgb(255, 255, 255);
+        display: inline-block;
+        padding:15px;
+        }
+    a {
+        font-family: Bahnschrift, Arial, Helvetica;
+    }
+    table {
+        background-color: rgb(124, 124, 124);
+        font-size:25px;
+        font-family: Bahnschrift, Arial, Helvetica;
+        border: 5px solid rgb(255, 255, 255);
+        display: inline-block;
+        padding: 15px;
+        }
+	th, td {
+        padding: 5px;
+        }
+    select {color:;}
+        #Red1 {background-color: red;color: white;}
+        #Blue1 {background-color: blue;color: white;}
+        #Yellow1 {background-color: yellow;color: black;}
+        #Green1 {background-color: green;color: white;}
+        #Orange1 {background-color: orange;color: white;}
+        #Violet1 {background-color: violet;color: black;}
+        #White1 {background-color: white;color: black;}
+        #Black1 {background-color: black;color: white;}
+	</style>
+</head>
+
+<body>
+	<h1>
+	<font face="Arial" size="10" style="color:rgb(255, 255, 255)">REGISTRATION</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="" style="text-decoration:none"><font style="color: orange;">Home</font></a>&nbsp;&nbsp;
+	<a href="" style="text-decoration:none"><font style="color: orange;">Gallery</font></a>&nbsp;&nbsp;
+	<a href="" style="text-decoration:none"><font style="color: orange;">Prospectus</font></a>&nbsp;&nbsp;
+    <a href="SOTTO - HTML Basic Exercise.html" style="text-decoration:none"><font style="color: orange;">Miscellaneous</font></a>&nbsp;&nbsp;
+	<a href="" style="text-decoration:none"><font style="color: orange;">Login</font></a>&nbsp;&nbsp;
+	<a href="SOTTO - Registration.html" style="text-decoration:none"><font style="color: orange;">Registration</font></a>&nbsp;&nbsp;
+	</h1>
+	<hr>
+    <center>
+	<h2 style="font-size:250%"><font style="color:orange">Registration Form</font></h2>
+    <br>
+
+	<table style="width:50%;height:50%">
+	<form>
+	<tr>
+    <td><b><font style="color:rgb(255, 255, 255)">First Name:</font></b></td>
+    <td><input required type="text" id="FirstName" name="FirstName" placeholder="First Name"></td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Middle Name:</font></b></td>
+    <td><input required type="text" id="MiddleName" name="MiddleName" placeholder="Middle Name"></td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Family Name:</font></b></td>
+    <td><input required type="text" id="LastName" name="LastName" placeholder="Last Name"></td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Gender:</font></b></td>
+    <td><font style="color:rgb(255, 255, 255)">Male:</font><input type="radio" id = "Gen1" name = "Gender" value = "Male">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <font style="color:rgb(255, 255, 255)">Female:</font><input type="radio" id = "Gen2" name = "Gender" value = "Female"></td>
+    </tr>
+
+	<tr>
+    <td><b><font style="color:rgb(255, 255, 255)">E-mail Address:</font></b></td>
+    <td><input required type="email" id="email" name="email" placeholder="johndoe@mail.com"></td></tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Home Address:</font></b></td>
+    <td><textarea id="Address1" name="Address" rows="2" cols="45"></textarea></td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Hobbies:</font></b></td>
+    <td>
+    <input type="checkbox" id="Hobby1"><font style="color:rgb(255, 255, 255)">Computer Games</font><br>
+    <input type="checkbox" id="Hobby2"><font style="color:rgb(255, 255, 255)">Playing musical instruments</font><br>
+    <input type="checkbox" id="Hobby3"><font style="color:rgb(255, 255, 255)">Cooking</font><br>
+    <input type="checkbox" id="Hobby4"><font style="color:rgb(255, 255, 255)">Drawing</font>
+    </td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Favorite Color:</font></b></td>
+    <td><select name="FavColors" id="FavColors1">
+            <option value="Red" id="Red1">Red</option>
+            <option value="Blue" id="Blue1">Blue</option>
+            <option value="Yellow" id="Yellow1">Yellow</option>
+            <option value="Green" id="Green1">Green</option>
+            <option value="Orange" id="Orange1">Orange</option>
+            <option value="Violet" id="Violet1">Violet</option>
+            <option value="White" id="White1">White</option>
+            <option value="Black" id="Black1">Black</option>
+        </select></td>
+    </tr>
+
+    <tr>
+    <td><b><font style="color:rgb(255, 255, 255)">Say something about yourself:</font></b></td>
+    <td><textarea id="Address1" name="Address" rows="8" cols="45"></textarea></td>
+     </tr>
+
+	<tr>
+    <td><input type="submit" value="Register"></td>
+    <td><input type="reset" value="Clear"></td>
+    </tr>
+    </form>
+    </table>
+    </center>
+</body>
+
+</html>
